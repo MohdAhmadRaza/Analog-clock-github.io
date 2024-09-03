@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+#clockcontainer{
+    background-color: red;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid black; */
+   margin: auto;
+   position: relative;
+}
+
+#hour ,#min ,#sec{
+background: black;
+border-radius: 10px;
+transform-origin: bottom;
+position: absolute ;
+}
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.5%;
+    opacity: 0.8;
+    /*  display: block; */
+}
+#min{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.6%;
+    opacity: 0.8;
+    
+
+}
+#sec{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.5%;
+    opacity: 0.8;
+}
